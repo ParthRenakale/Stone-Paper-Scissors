@@ -1,0 +1,63 @@
+*{
+    background-color: rgb(180, 188, 245);
+    text-align: center;
+}
+    
+.wel{
+    font-family: "Pacifico", cursive;
+    font-size: 60px;
+    color: #2a9d8f;
+    font-weight: bold;
+    margin: 20px;
+}
+.vs,.choose{
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    color: #7f4924;
+    /* visibility: hidden; */
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.stone,.paper,.scissors{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    border-radius: 10%;
+}
+.choice:hover{
+    opacity: 50%;
+}
+.stone{
+    background-image: url("./stone.jpg");
+    
+}
+button:onclick{
+    background-color:gray ;
+}
+
+.paper{
+    background-image: url("./paper.jpg");
+}
+.scissors{
+    background-image: url("./scissors.png");
+}
+.reset{
+    margin: 50px;
+    background-color: orange;
+    height: 30px;
+    width: 80px;
+    color: white;
+    border-radius: 10%;
+}
+.reset:hover{
+    background-color: azure;
+    color: black;
+}
